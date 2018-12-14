@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #777777;
+}
+
+/* Banner */
+.banner {
+	background-color: #F6F6F6;
+}
+
+.banner-text{
+	margin: 0;
+	letter-spacing: 3px;
+	font-style: italic;
+	color: #DA3849;
+}
+
+.banner-brand {
+	letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 385px) {
+	.banner-text {
+		font-size: 14px;
+	}
+}
+
+/* Navigation */
+.nav {
+	background-color: #F6F6F6;
+	opacity: 0.9;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: inherit;
+	letter-spacing: 2px;
+	font-size: 1.125em;
+}
+
+.nav-item > .nav-link:hover {
+	color: #DA3849 !important;
+	text-decoration: underline;
+}
+
+/* Carousel */
+#toyCarousel {
+	margin-bottom: 70px;
+}
+
+/* Shop */
+#shop {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.card {
+	border: none;
+}
+.btn-outline-danger {
+	padding: 5px;
+	letter-spacing: 2px;
+}
+
+/* Contact */
+#contact {
+	background-color: #F6F6F6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#contact h6 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#contact p {
+	line-height: 1;
+}
+
+#contact a {
+	color: #777777;
+}
+
+@media only screen and (max-width: 572px) {
+	.contact {
+		text-align: center;
+	}
+	h6 {
+		text-decoration: underline;
+		margin-top: 30px;
+	}
+}
+
+
+/* Footer */
+#footer {
+	background-color: #F6F6F6;
+	border-top: 1px solid #BBBBBB;
+	line-height: normal;
+	padding-bottom: 2px;
+	padding-top: 15px;
+}
+
+#footer p {
+	font-size: 0.5625em;
+	letter-spacing: 0.9px;
+}
+
+.heart {
+	color: #f20000;
+	font-size: 0.625em;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: black;
+}
+
+#footer a:hover {
+	color: #f20000;
+}
